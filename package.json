@@ -1,0 +1,23 @@
+{
+  "name": "parse-wiktionary",
+  "version": "1.0.0",
+  "description": "Download words from Wiktionary and parse them in an easy to use JSON format",
+  "main": "./lib/wiktionary-parser.js",
+  "keywords": ["wiktionary", "parser", "json"],
+  "author": {
+    "name": "Onsa",
+    "url": "https://github.com/onsa"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jsdom": "^16.2.14",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint": "^8.18.0",
+    "eslint-plugin-import": "^2.26.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "jsdom": "^20.0.0"
+  }
+}
